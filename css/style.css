@@ -176,6 +176,7 @@ h6 {
 }
 h2 {
   font-size: 60px;
+
   line-height: 52px;
   padding-top: 86px;
   margin-bottom: 71px;
@@ -192,6 +193,9 @@ ul {
   margin: 0;
   list-style: none;
 }
+.list-1 {
+  font-size: 30px;
+}
 .list-1 li {
   padding-top: 16px;
 }
@@ -203,13 +207,13 @@ ul {
   height: 47px;
   border-radius: 500px;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 43px;
   text-align: center;
   margin-bottom: 21px;
 }
 .list-1 li + li {
-  margin-top: 43px;
+  margin-top: 70px;
 }
 .list-1.lst__1 li + li {
   margin-top: 0;
@@ -343,6 +347,12 @@ a:hover {
 .extra_wrapper {
   overflow: hidden;
 }
+
+.wrapper,
+.extra_wrapper {
+  overflow: hidden;
+  font-size:30px;
+}
 .clear {
   float: none !important;
   clear: both;
@@ -405,6 +415,10 @@ h1:after {
 /****Content****/
 #content {
   background-color: #ffffff;
+}
+#journalheading{
+	color:white;
+	
 }
 /****Non suppage set****/
 .page1 header {
@@ -518,6 +532,9 @@ h1:after {
 .block-3 {
   margin-bottom: 67px;
 }
+.block-3 {
+  font-size:30px;
+}
 .block-4 {
   margin-bottom: 86px;
   background-color: #5c627c;
@@ -595,6 +612,8 @@ h1:after {
   padding-top: 6px;
   margin-top: 52px;
 }
+
+
 /****Gallery****/
 /****Separators****/
 .sep-1 {
