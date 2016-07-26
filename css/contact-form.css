@@ -44,7 +44,7 @@
   display: block;
   font-weight: normal;
   line-height: 24px;
-  font-size: 18px;
+  font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   padding: 6px 20px 5px;
   -webkit-box-sizing: border-box;
@@ -52,7 +52,7 @@
   box-sizing: border-box;
   border-radius: 4px;
   cursor: text;
-  color: #363535;
+  color: black;
 }
 #contact-form ._placeholder.focused {
   opacity: 0.4;
@@ -220,12 +220,7 @@
   background-position: 50% 50%;
   opacity: 0;
 }
-#contact-form.processing .contact-form-loader {
-  opacity: 1;
-  z-index: 99;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
+
 /* Contact Form Modal 
 ========================================================*/
 .modal-open {
